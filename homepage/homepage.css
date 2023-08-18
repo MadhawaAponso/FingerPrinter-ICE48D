@@ -1,0 +1,75 @@
+
+header {
+    background-color: none;
+    color: white;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  body{
+    background-color:  rgb(2, 17, 79);
+   
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    background-color: rgb(2, 17, 79);
+    display: inline-block;
+    padding: 10px;
+    color: black;
+  }
+  button{
+  width: 300px;
+  padding: 10px 20px;
+  background-color: rgb(14, 186, 233);
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  button:hover{
+    background-color: rgb(2, 135, 185);
+  }
+
+  body{
+    position: relative;
+    background-image: url('/LandingPage/backgroud1.jpg');
+    background-size:cover; 
+    background-position: center -90px; 
+  }
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      margin-top: 10px;
+    }
+  }
+  
