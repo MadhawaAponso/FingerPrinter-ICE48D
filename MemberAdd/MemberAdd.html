@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MemberAdd.css">
+    <title>Add Member</title>
+</head>
+<body>
+    <header>
+        
+        <button type="button">Back</button>
+        <h1>Add New Member</h1>
+        <button type="button">Home</button>
+
+        
+        
+    </header>
+    
+    <main>
+        <form class="add-member-form" action="process-member.php" method="post">
+            <!-- <label for="admin-number">Admin Number (Required):</label>
+            <input type="text" id="admin-number" name="admin-number" required> -->
+            
+            <label for="member-number">Member Number:</label>
+            <input type="text" id="member-number" name="member-number">
+            
+            <label for="member-name">Name:</label>
+            <input type="text" id="member-name" name="member-name">
+            
+            <label for="index-number">Index Number:</label>
+            <input type="text" id="index-number" name="index-number">
+            
+            <label for="id-number">ID Number:</label>
+            <input type="text" id="id-number" name="id-number">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="assword" name="password">
+            
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department">
+            
+            <label for="profile-picture">Profile Picture:</label>
+            <input type="file" id="profile-picture" name="profile-picture">
+        
+        
+            
+            <button type="submit">Add Member</button>
+        </form>
+    </main>
+</body>
+</html>

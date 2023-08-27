@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #0c141d;
+    color: white;
+    padding: 20px;
+    height: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  
+  .sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    left:20px;
+    top:50px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .sidebar li {
+    margin: 50px 0;
+    text-align: center;
+    
+
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .content {
+    margin-left: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filters select {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  /* ... (previous CSS code) ... */
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  
+  

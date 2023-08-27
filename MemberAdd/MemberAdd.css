@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+body, h1, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c141d;
+}
+
+header {
+    background-color:#0c141d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.add-member-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.add-member-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-member-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+header button{
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.add-member-form button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+header button:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: #0c141d;
+}
